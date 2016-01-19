@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px
+ 
+}
+
+body {
+background-image: url(../images/img4-02.png);
+    background-size:cover;
+    
+    margin-left: 10%;
+   
+    margin-top: 5%;
+   
+    font-family: avenir,sans-serif;
+    size: 14px;
+    color: #333;
+    background-color: indianred;
+}
+
+#column1 {
+    max-width:500px;
+    height:400px;
+    float: left;
+    opacity:0.95;
+    background: white;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right:50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    //box-shadow: 10px 10px 5px grey;
+}
+
+#column2 {
+    opacity:0.95;
+    width:500px;
+    height:300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float:left;
+    margin-left: 10%;
+    background-color: white;
+     border-style: solid;
+    border-width: 1px;
+      border-color: gainsboro;
+    line-height: 160%;
+}
+
+#returnButton {
+    position:fixed;
+    top: 10px;
+    left:10px;
+    background-color:white;
+    width:150px;
+    height:30px;
+    padding-top:10px;
+    text-align:center;
+    font-weight: bold;
+}
+
+#returnButton a:link{
+    text-decoration: none;
+    color: indianred;
+}
+
+#returnButton a:visited{
+    text-decoration: none;
+    color:indianred;
+}
+
+
+#returnButton a:hover{
+    text-decoration: underline;
+    color:aquamarine;
+}
+
+
+h3 {
+    
+    padding-top: 5px;
+}
+select {
+    background: transparent;
+    width: 268px;
+    padding 5px;
+    font-size: 16px;
+    line-height: 1;
+    border:0;
+    border-radius: 0;
+    height:34px;
+}
+
+form input {
+  margin: 12px 6px;
+  color:black;
+  font-size:px;
+
+}
+
+em {color: red;
+
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+
+form input[type="submit"] {
+    font-family: avenir;
+  color:deepskyblue;
+}
+
+form input[type="reset"]{
+    font-family: avenir;
+    color:deepskyblue;
+}
+
+
+form input[type="submit"]:hover, form input[type="submit"]:hover {
+    font-family: avenir;
+    color: indianred;
+}
+
+form input[type="reset"]:hover, form
+input[type="reset"]:hover{
+    font-family: avenir;
+     color: indianred;
+}
+
+hr {   display: block;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #545554;
+    border-bottom: none;
+   margin-top: 1%;
+    padding: 0; }
