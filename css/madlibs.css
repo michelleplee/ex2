@@ -13,7 +13,7 @@ background-image: url(../images/img4-02.png);
     margin-top: 5%;
    
     font-family: avenir,sans-serif;
-    size: 14px;
+    font-size: 14px;
     color: #333;
     background-color: indianred;
 }
@@ -31,7 +31,7 @@ background-image: url(../images/img4-02.png);
     border-style: solid;
     border-width: 1px;
     border-color: gainsboro;
-    //box-shadow: 10px 10px 5px grey;
+
 }
 
 #column2 {
@@ -87,7 +87,7 @@ h3 {
 select {
     background: transparent;
     width: 268px;
-    padding 5px;
+    padding: 5px;
     font-size: 16px;
     line-height: 1;
     border:0;
@@ -98,7 +98,7 @@ select {
 form input {
   margin: 12px 6px;
   color:black;
-  font-size:px;
+
 
 }
 
@@ -144,3 +144,21 @@ hr {   display: block;
     border-bottom: none;
    margin-top: 1%;
     padding: 0; }
+
+
+
+footer { position:fixed;
+
+    margin-left:auto;
+    margin-right: auto;
+    left: 20px;
+    bottom: 0px;
+    width:800px;
+    height:60px;
+    
+    font-family: avenir;
+
+    line-height: 25px
+    
+    
+}
